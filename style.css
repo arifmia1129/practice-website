@@ -18,7 +18,7 @@ h3{
     text-align: justify;
 }
 .link-button{
-    background-image: linear-gradient(rgb(247, 136, 173), rgb(236, 88, 88));
+    background-image: linear-gradient(rgb(245, 114, 158), rgb(243, 103, 103));
     padding:10px 20px;
     text-decoration:none;
     color:white;
@@ -47,7 +47,6 @@ h3{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-    margin-bottom: 150px;
 }
 .half-width{
     width:50%;
@@ -80,4 +79,11 @@ h3{
     border-image:linear-gradient(rgb(35, 83, 216), rgb(78, 159, 235));
     border-image-slice: 1;
     
+}
+footer p{
+    text-align: center;
+    font-weight: 700;
+}
+#span-new{
+    color:red;
 }
