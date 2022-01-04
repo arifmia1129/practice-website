@@ -5,8 +5,11 @@ body{
 h1{
     font-size:50px;
 }
+h2{
+    font-size: 40px;
+}
 h3{
-    font-size:30px;
+    font-size:25px;
 }
 .special-sen{
     color:orange;
@@ -15,7 +18,7 @@ h3{
     text-align: justify;
 }
 .link-button{
-    background-image: linear-gradient(rgb(233, 109, 150), rgb(243, 152, 152));
+    background-image: linear-gradient(rgb(247, 136, 173), rgb(236, 88, 88));
     padding:10px 20px;
     text-decoration:none;
     color:white;
@@ -25,7 +28,7 @@ h3{
     display:flex;
     background-image:url(images/top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     
 }
 #middle-section{
@@ -33,8 +36,18 @@ h3{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     
+}
+#end-section{
+    display:flex;
+    margin-bottom: 150px;
+}
+#new{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 150px;
 }
 .half-width{
     width:50%;
@@ -47,4 +60,24 @@ h3{
 }
 .rigth-margin{
     margin-right: 100px;
+}
+.new-div{
+    width:40%;
+    margin-left:5%;
+    margin-right:5%;
+    box-shadow: 5px 5px 10px gray;
+    padding:20px 30px 150px;
+    border-radius: 10px;
+}
+#div-1{
+    border-left:7px solid;
+    border-image:linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+    
+}
+#div-2{
+    border-left:7px solid;
+    border-image:linear-gradient(rgb(35, 83, 216), rgb(78, 159, 235));
+    border-image-slice: 1;
+    
 }
